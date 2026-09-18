@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.faixa1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    background-color: darkorchid;
+    height: 20%;
+    gap: 20px;
+}
+.bolas1{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: darkmagenta;
+}
+
+.faixa2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    background-color: chartreuse;
+    height: 20%;
+    gap: 20px;
+}
+.bolas2{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: cadetblue;
+}
+
+.faixa3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 20%;
+    gap: 20px;
+}
+.bolas3{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.faixa4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: chocolate;
+    height: 20%;
+    gap: 20px;
+}
+.bolas4{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: coral;
+}
+
+.faixa5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: darkolivegreen;
+    height: 20%;
+    gap: 20px;
+}
+.bolas5{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: darkgreen;
+}
